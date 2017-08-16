@@ -1,0 +1,717 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+/*Author's custom styles*/
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*HEADER STYLE*/
+
+.navContainer {
+  height: 60px;
+  background-color: #e3f2fd;
+  font-family: 'Varela Round', sans-serif;
+  color: #0277bd;
+  position: relative;
+}
+
+.mainNav {
+  clear: both;
+  overflow: hidden;
+}
+
+.mainLogo img {
+  width: 180px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 9.31px;
+}
+
+.shoppingCart img, .menuIcon img {
+  width: 25px;
+  margin-right: 10px;
+  float: right;
+}
+
+.menuIcon img {
+  margin-top: 20.125px;
+}
+
+.shoppingCart img {
+  margin-top: 17.86px;
+}
+
+.siteLinks {
+  display: none;
+}
+
+.mobileNav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  background-color: #e3f2fd;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.mobileNav ul {
+  line-height: 2;
+  padding: 5px;
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.subMenu {
+  background-color: #FAFAFA;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.functionsNav ul {
+  display: none;
+}
+
+
+/*ARTICLE STYLE*/
+/*FILTERS*/
+
+.mainPage {
+  background-color: #FAFAFA;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.filters {
+  text-align: center;
+}
+
+.filters ul {
+  padding-top: 10px;
+}
+
+.filters ul li {
+  display: inline-block;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.filters ul li:last-child {
+  margin-right: 0px;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.activeFilter {
+  border-bottom: 2px solid #ba68c8;
+}
+
+/*MAIN PAGE*/
+
+.itemList {
+  text-align: center;
+}
+
+.squishableItem {
+  margin: 10px 0 10px;
+  color: #f06292;
+}
+
+.squishableItem img {
+  width: 90%;
+}
+
+.squishableItem h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  margin: 10px 0
+}
+
+.squishableItem a {
+  text-decoration: none;
+  color: #f06292;
+}
+
+.squishableItem h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.seeMore {
+  background-color: transparent;
+  width: 90%;
+  color: #f06292;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid #ba68c8;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #f8bbd0;
+  border-color: #e1bee7;
+}
+
+/*ITEM STYLE*/
+/*ITEM LISTING*/
+
+.mainPhoto {
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.mainPhoto img {
+  width: 100%;
+}
+
+.perspectives {
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+.perspectives a {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.perspectives a:last-child {
+  margin-right: 0;
+}
+
+.perspectives img {
+  width: 100%;
+  position: relative;
+  z-index: 10000;
+}
+
+.activeView {
+  border-bottom: 2px solid #ba68c8;
+}
+
+.perspectives img:hover {
+  /*border-bottom: 2px solid #ba68c8;*/
+  outline: 2px solid #ba68c8;
+
+}
+
+.itemDescription {
+  margin-bottom: 10px;
+}
+
+.itemDescription h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 24px;
+  margin: 10px 0;
+  color: #f06292;
+}
+
+.itemStats {
+  width: 100%;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.itemStats h2 {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #f06292;
+}
+
+.reviewTop {
+  float: right;
+  overflow: hidden;
+}
+
+.addToCart {
+  background-color: transparent;
+  width: 100%;
+  color: #f06292;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid #ba68c8;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.reviewTop img {
+  float: left;
+  width: 55px;
+  margin-top: 2.125px;
+}
+
+.reviewTop p {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.reviewTop a {
+  color: #ba68c8;
+}
+
+.reviewTop a:hover {
+  color: #e1bee7;
+}
+
+.longDetails {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #0277bd;
+  line-height: 1.25;
+}
+
+.itemDescription ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #0277bd;
+  list-style: disc inside;
+  line-height: 1.5;
+}
+
+/*REVIEWS*/
+
+.reviews {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.reviews h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f06292;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reviewLower {
+  overflow: hidden;
+  margin: 10px 0;
+  font-family: 'Lato', sans-serif;
+  color: #ba68c8;
+  font-size: 14px;
+}
+
+.reviewLower .reviewTop {
+  float: left;
+}
+
+.reviewLower p {
+  float: right;
+}
+
+.reviewLower a {
+  color: #ba68c8;
+}
+
+.reviewLower a:hover {
+  color:#e1bee7;
+}
+
+.singleReview {
+  margin: 10px 0;
+  border-top: 2px solid #f8bbd0;
+}
+
+.reviewHeader {
+  margin: 10px 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.reviewHeader h1 {
+  float: left;
+  text-align: left;
+  font-size: 16px;
+  color: #0277bd;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.reviewHeader date {
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #0277bd;
+}
+
+.singleReview img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+
+.singleReview h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #0277bd;
+  margin-bottom: 10px;
+}
+
+.singleReview p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #0277bd;
+  line-height: 1.25;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.readMore {
+  background-color: transparent;
+  width: 100%;
+  color: #f06292;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid #ba68c8;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 0px;
+}
+
+/*SUGGESTIONS*/
+
+.suggestions {
+  text-align: center;
+}
+
+.suggestions p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #f06292;
+  padding-top: 10px;
+}
+
+.squishableItem:last-child {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+  background-color: #fff9c4;
+  color: #0277bd;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+footer a:hover {
+  color: #03a9f4;
+}
+
+.footerLeft {
+  float: left;
+}
+
+.footerCentre {
+  float: right;
+}
+
+.footerRight {
+  clear: both;
+}
+
+footer h2 {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: socicon;
+  src: url(font/socicon-webfont.ttf);
+}
+
+footer li {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.footerRight {
+  text-align: center;
+}
+
+.footerRight ul li {
+  display: inline-block;
+  font-family: socicon;
+  font-size: 24px;
+  margin-right: 6px;
+}
+
+.footerRight ul li:last-child {
+  margin-right: 0;
+}
+
+
+/*DESKTOP STYLE*/
+
+@media (min-width: 650px) {
+
+/*HEADER STYLE*/
+
+.navContainer {
+  height: 110px;
+}
+
+.functionsNav {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.functionsNav ul {
+  display: block;
+}
+
+.functionsNav li {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.functionsNav li:last-child {
+  margin: 0;
+}
+
+.functionsNav a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.functionsNav img {
+  width: 15px;
+  margin-right: 2px;
+}
+
+.functionsNav a:hover {
+  color: #03a9f4;
+}
+
+.menuIcon, .shoppingCart, .mobileNav {
+  display: none;
+}
+
+.mainLogo img {
+  width: 210px;
+  margin-top: 2.865px;
+}
+
+.siteLinks {
+  display: block;
+  float: left;
+  margin-top: 12.565px;
+  margin-left: 10%;
+}
+
+.siteLinks a {
+  text-decoration: none;
+  color: #0277bd;
+}
+
+.siteLinks li {
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 40px;
+}
+
+.siteLinks li:last-child {
+  margin-right: 0px;
+}
+
+.siteLinks a:hover {
+  border-bottom: 2px solid #ba68c8;
+}
+
+.filters a:hover {
+  border-bottom: 2px solid #ba68c8;
+}
+
+/*MAIN PAGE*/
+/*FILTERS*/
+
+.filters ul li {
+  font-size: 18px;
+}
+
+/*PAGE ITEMS*/
+
+.itemRow {
+  width: 100%;
+  margin: 10px auto 0px;
+  overflow: hidden;
+}
+
+.itemRow .squishableItem {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+.itemRow .squishableItem:last-child {
+  margin-right: 0;
+}
+
+.squishableItem h1 {
+  font-size: 20px;
+}
+
+.squishableItem h2 {
+  font-size: 16px;
+}
+
+.squishableItem a:hover {
+  color: #f8bbd0;
+}
+
+.seeMore {
+  width: 30%;
+  margin: 0 auto 10px;
+}
+
+/*ITEM STYLE*/
+/*ITEM LISTING*/
+
+.itemDetails {
+  overflow: hidden;
+}
+
+.itemPhotos {
+  float: left;
+  width: 55%;
+  margin-right: 5%;
+}
+
+.itemDescription {
+  float: right;
+  width: 40%;
+}
+
+.itemDescription h1 {
+  margin: 50px 0 10px;
+  font-size: 30px;
+}
+
+.itemDescription h2 {
+  font-size: 22px;
+}
+
+.reviewTop img {
+  width: 75px;
+}
+
+.reviewTop p {
+  font-size: 16px;
+}
+
+.longDetails {
+  font-size: 18px;
+}
+
+.itemDescription ul {
+  font-size: 18px;
+}
+
+/*REVIEWS*/
+
+.reviews {
+  margin-top: 10px;
+}
+
+.reviews h1 {
+  font-size: 22px;
+}
+
+.reviewLower p {
+  font-size: 16px;
+}
+
+.singleReview h1 {
+  font-size: 18px;
+}
+
+.singleReview date {
+  font-size: 18px;
+}
+
+.singleReview img {
+  width: 75px;
+}
+
+.singleReview h2 {
+  font-size: 18px;
+}
+
+.singleReview p {
+  font-size: 18px;
+}
+
+.readMore {
+  width: 30%;
+}
+
+/*SUGGESTIONS*/
+
+.suggestions p {
+  font-size: 20px;
+}
+
+.suggestions h1 {
+  font-size: 18px;
+}
+
+/*FOOTER*/
+.footerLeft, .footerCentre, .footerRight {
+  clear: none;
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.footerRight {
+  margin-right: 0;
+}
+
+footer {
+  font-size: 20px;
+}
